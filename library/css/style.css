@@ -1230,10 +1230,10 @@ body {
   color: #3f3838 !important; }
 
 ::selection {
-  background: #ffcc27; }
+  background: #88c0d7; }
 
 ::-moz-selection {
-  background: #ffcc27; }
+  background: #88c0d7; }
 
 .cintillo {
   background: white;
@@ -1271,10 +1271,10 @@ body {
   background: white;
   border: 0;
   text-align: left;
-  color: #e75239; }
+  color: #2f75a6; }
 
 .header nav a {
-  color: #e75239 !important; }
+  color: #2f75a6 !important; }
 
 @media only screen and (max-width: 481px) {
   .cintillo {
@@ -1303,7 +1303,7 @@ body {
     -moz-appearance: none;
     border-radius: 0;
     -moz-border-radius: 0;
-    background-color: #e75239;
+    background-color: #2f75a6;
     color: #fefefe; }
 
   .home .sidebar {
@@ -1319,10 +1319,10 @@ body {
   width: 100%;
   position: relative;
   height: 0.1em;
-  background: -webkit-linear-gradient(left top, #e75239 0%, #e75239 12.5%, #ff961c 12.5%, #ff961c 25%, #ffcc27 25%, #ffcc27 37.5%, #fce62f 37.5%, #fce62f 50%, #fce62f 50%, #fce62f 62.5%, #ffcc27 62.5%, #ffcc27 75%, #ff961c 75%, #ff961c 87.5%, #e75239 87.5%, #e75239 100%) repeat scroll 50% 0px transparent;
-  background: linear-gradient(left top, #e75239 0%, #e75239 12.5%, #ff961c 12.5%, #ff961c 25%, #ffcc27 25%, #ffcc27 37.5%, #fce62f 37.5%, #fce62f 50%, #fce62f 50%, #fce62f 62.5%, #ffcc27 62.5%, #ffcc27 75%, #ff961c 75%, #ff961c 87.5%, #e75239 87.5%, #e75239 100%) repeat scroll 50% 0px transparent;
-  background: -ms-linear-gradient(left top, #e75239 0%, #e75239 12.5%, #ff961c 12.5%, #ff961c 25%, #ffcc27 25%, #ffcc27 37.5%, #fce62f 37.5%, #fce62f 50%, #fce62f 50%, #fce62f 62.5%, #ffcc27 62.5%, #ffcc27 75%, #ff961c 75%, #ff961c 87.5%, #e75239 87.5%, #e75239 100%) repeat scroll 50% 0px transparent;
-  background: -moz-linear-gradient(left top, #e75239 0%, #e75239 12.5%, #ff961c 12.5%, #ff961c 25%, #ffcc27 25%, #ffcc27 37.5%, #fce62f 37.5%, #fce62f 50%, #fce62f 50%, #fce62f 62.5%, #ffcc27 62.5%, #ffcc27 75%, #ff961c 75%, #ff961c 87.5%, #e75239 87.5%, #e75239 100%) repeat scroll 50% 0px transparent;
+  background: -webkit-linear-gradient(left top, #88C0D7 0%, #88C0D7 12.5%, #519EB8 12.5%, #519EB8 25%, #3E87B0 25%, #3E87B0 37.5%, #104577 37.5%, #104577 50%, #104577 50%, #104577 62.5%, #3E87B0 62.5%, #3E87B0 75%, #519EB8 75%, #519EB8 87.5%, #88C0D7 87.5%, #88C0D7 100%) repeat scroll 50% 0px transparent;
+  background: linear-gradient(left top, #88C0D7 0%, #88C0D7 12.5%, #519EB8 12.5%, #519EB8 25%, #3E87B0 25%, #3E87B0 37.5%, #104577 37.5%, #104577 50%, #104577 50%, #104577 62.5%, #3E87B0 62.5%, #3E87B0 75%, #519EB8 75%, #519EB8 87.5%, #88C0D7 87.5%, #88C0D7 100%) repeat scroll 50% 0px transparent;
+  background: -ms-linear-gradient(left top, #88C0D7 0%, #88C0D7 12.5%, #519EB8 12.5%, #519EB8 25%, #3E87B0 25%, #3E87B0 37.5%, #104577 37.5%, #104577 50%, #104577 50%, #104577 62.5%, #3E87B0 62.5%, #3E87B0 75%, #519EB8 75%, #519EB8 87.5%, #88C0D7 87.5%, #88C0D7 100%) repeat scroll 50% 0px transparent;
+  background: -moz-linear-gradient(left top, #88C0D7 0%, #88C0D7 12.5%, #519EB8 12.5%, #519EB8 25%, #3E87B0 25%, #3E87B0 37.5%, #104577 37.5%, #104577 50%, #104577 50%, #104577 62.5%, #3E87B0 62.5%, #3E87B0 75%, #519EB8 75%, #519EB8 87.5%, #88C0D7 87.5%, #88C0D7 100%) repeat scroll 50% 0px transparent;
   box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.25) inset; }
 
 body {
@@ -1342,7 +1342,7 @@ body {
   font-weight: bold;
   font-size: 90%;
   margin-top: 7%;
-  color: #e75239; }
+  color: #2f75a6; }
 
 .home .sidebar dt:first-child {
   margin-top: 0; }
@@ -1351,13 +1351,21 @@ body {
   padding: 0 0 0 2em; }
 
 .footer {
-  background: #ff961c !important;
+  background: #88c0d7 !important;
   color: #3f3838 !important;
   font-size: 80%;
   text-align: right; }
 
 .footer a {
+  color: #2f75a6;
   text-decoration: none; }
+
+.footer a:hover {
+  color: #104577; }
+
+.article-header .page-title {
+  font-size: 2em;
+  color: #104577; }
 
 /*********************
 BASE (MOBILE) SIZE
@@ -1626,7 +1634,7 @@ POSTS & CONTENT STYLES
   .entry-content blockquote {
     margin: 0 0 1.5em 0.75em;
     padding: 0 0 0 0.75em;
-    border-left: 3px solid #2980b9;
+    border-left: 3px solid #2f75a6;
     font-style: italic;
     color: #9fa6b4; }
   .entry-content dd {
@@ -1708,9 +1716,9 @@ PAGE NAVI STYLES
     padding: 0.75em;
     min-width: 1em;
     display: block;
-    color: #2980b9; }
+    color: #2f75a6; }
     .pagination a:hover, .pagination a:focus, .pagination span:hover, .pagination span:focus {
-      background-color: #2980b9;
+      background-color: #2f75a6;
       color: white; }
   .pagination .current {
     cursor: default;
